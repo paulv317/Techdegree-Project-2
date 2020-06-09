@@ -155,6 +155,11 @@ img {
     width: 50%;
   }
 
+  .contact-p {
+    width: 70%;
+    margin: 0 auto;
+  }
+
   .small-footer {
     display: none;
   }
@@ -193,6 +198,7 @@ img {
 
     .title, 
     .main-nav a {
+      width: 50%;
       font-size: 20px;
       margin-top: 0;
       margin-bottom: 0;
@@ -201,17 +207,18 @@ img {
 
     .title {
       float: left;
-      margin-left: 10%;
     }
 
     .main-nav {
+      width: 50%;
       float: right;
       margin: 0 auto;
+      text-align: right;
     }
 
     .main-nav li {
       float: left;
-      padding: 0 5px;
+      padding: 0;
       margin: 0;
     }
 
